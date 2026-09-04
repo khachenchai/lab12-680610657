@@ -42,7 +42,7 @@ export default function TodolistPage() {
           <main className="flex-grow-1 p-4">
             <div className="container">
               <h2 className="text-center">Todo List</h2>
-
+              <p className="text-center text-muted">ทั้งหมด {tasks.length} งาน</p>
               {/* ── 3) TaskInput (ไม่รับ props) ──────────────────────────── */}
               <TaskInput />
 
